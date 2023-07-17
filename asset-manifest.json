@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mytra/static/css/main.6b2a5c8b.css",
+    "main.js": "/mytra/static/js/main.875ad44f.js",
+    "index.html": "/mytra/index.html",
+    "main.6b2a5c8b.css.map": "/mytra/static/css/main.6b2a5c8b.css.map",
+    "main.875ad44f.js.map": "/mytra/static/js/main.875ad44f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b2a5c8b.css",
+    "static/js/main.875ad44f.js"
+  ]
+}
