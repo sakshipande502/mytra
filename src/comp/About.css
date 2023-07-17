@@ -1,0 +1,97 @@
+ .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:1rem 0;
+
+}
+
+.row .info{
+    flex:1 1 48rem;
+    padding:0rem 1rem;
+    padding-left: 6rem;
+}
+
+.row .info h3{
+    font-size: 2rem;
+    color:var(--yellow);
+    padding:1rem 0;
+    font-weight: normal;
+}
+
+.row .info h3 span{
+    color:#eee;
+    padding:0 .5rem;
+}
+
+ .row .counter{
+    flex:1 1 48rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+ .row .counter .box{
+    width:20rem;
+    background:#222;
+    text-align: center;
+    padding: 2rem;
+    margin:2rem;
+}
+
+ .row .counter .box span{
+    font-size: 4rem;
+    color:var(--yellow);
+}
+
+ .row .counter .box h3{
+    font-size: 2rem;
+    color:#fff;
+}
+
+.heading{
+    /* margin-top: 90px; */
+    text-align: center;
+    margin:120px 6rem;
+    font-size: 3rem;
+    padding:1rem;
+    border-bottom: .1rem solid #fff4;
+    color:#fff;
+}
+.btn{
+    padding:.7rem 3rem;
+    background:#333;
+    color:#fff;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 2rem;
+    border-radius: 5rem;
+}
+section{
+    min-height: 100vh;
+    padding:1rem;
+}
+.a{
+    color: #222;
+    background-color: #fff;
+    margin-top: 320px;
+    margin-left: 80px;
+    
+}
+.row2 {
+    color: #fff;
+    margin-left: 00px;
+    height: 20px;
+   
+  }
+  
+  .row-posters2 {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+    height: 10%;
+  }
+  
+  
