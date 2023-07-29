@@ -1,12 +1,25 @@
 import React from "react";
+import { toast } from "react-hot-toast";
+import "./menu";
+import { useDispatch } from "react-redux";
 const Menucard =({menuData})=>{
+    const dispatch = useDispatch()
+    const addcard =(options)=>{
+       toast.success("added to card");
+       dispatch({type:"addToCard",payload:options});
+       dispatch({
+        type: "calculatePrice",
+      });
+       
+    }
+   
     
   return(
     <>
     <section className="main-card--cointainer">
     {
         menuData.map((curr)=>{
-            const {id,name,category,image, descripation} = curr;
+            const {id,name,category,image, descripation,quantity,price} = curr;
             return(
                 <>
                 <div className="card-container">
@@ -18,19 +31,26 @@ const Menucard =({menuData})=>{
                     <span className="card-description subtle">
                        {descripation}
                     </span>
-                    {/* <div className="card-read">Read</div> */}
+                    <br/>
+                    <span className="card-description subtle">
+                     Rs.{price}
+                    </span>
+                    {/* <div className="card-read">{price}</div> */}
                     </div>
                     <img src={image} alt="img" className="card-media"/>
-                    <span className="card-tag subtle">Wishlist Now</span>
+                    <button onClick={()=>addcard(curr)} className="card-tag subtle">Add to card</button>
                 </div>
             </div>
             </>
             );
+           
         })
     }
     </section>   
     </>
   );
 };
+
+// const ProductCard =({name,id,handler,img})
 
 export default Menucard;

@@ -1,7 +1,6 @@
 import React from 'react'
 import Login from './Login'
 import Nav from './Nav'
-import Sliding from './sliding'
 export default function About() {
   return (
     <div>

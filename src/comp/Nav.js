@@ -22,7 +22,7 @@ function Nav() {
         <Link to ='/' className='an'>Home</Link>
         <Link to ='/about' className='an2'>Shop Now</Link>
        
-        <Link to ='/Wishlist' className='an'>Wishlist</Link>
+        <Link to ='/Wishlist' className='an'>Card</Link>
         <Link to ='/Contact' className='an'>Account</Link>
         </nav>
         {/* <button onClick={()=> filterItem("Women")} className='an'>Women</button> */}
@@ -33,3 +33,8 @@ function Nav() {
 }
 
 export default Nav;
+{/* <h1 style={{"padding-top":"90px",
+          "alignItems":"center",
+          "padding-left":"90px",
+          "fontSize":"30px",
+          }}>No items yet...</h1> */}

@@ -7,7 +7,7 @@ import Skill from "./comp/Skills";
 import Wishlist from "./comp/Wishlist";
 import Footer from "./comp/Footer";
 import Nav from "./comp/Nav";
-
+import { Toaster } from "react-hot-toast";
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
         <Route path="/skill" element={<Skill />} />
         <Route path="/wishlist" element={<Wishlist />} />
       </Routes>
+      <Toaster></Toaster>
       <Footer />
     </BrowserRouter>
   );

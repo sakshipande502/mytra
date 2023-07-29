@@ -9,7 +9,7 @@ export default function Contact() {
       <div className='second'>
          <h1 className='head'>Login</h1>
          <input className='head2' type='text' placeholder='Enter name'></input>
-         <input className='head2' type='number' placeholder='Enter phone no'></input>
+         <input className='head2' type='password' placeholder='Enter password'></input>
          <br></br>
          <button className='bt'>Submit</button>
          <div>

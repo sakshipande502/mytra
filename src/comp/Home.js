@@ -4,7 +4,7 @@ import Nav from './Nav';
 import Footer from './Footer';
 import About from './About'
 import { Link } from 'react-router-dom';
-import Sliding from './sliding';
+
 
 export default function Home() {
   return (

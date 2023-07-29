@@ -5,7 +5,8 @@ const Menu =[{
     name:"TOP",
     category:"Women",
     price:525,
-    descripation:"this is TOP"
+    descripation:"this is TOP",
+    quantity:1,
     
    },
    {
@@ -14,7 +15,8 @@ const Menu =[{
        name:"Women top",
        category:"Women",
        price:425,
-       descripation:"this is TOP"
+       descripation:"this is TOP",
+       quantity:1,
    
    },
    {
@@ -23,7 +25,8 @@ const Menu =[{
        name:"TOP",
        category:"Kids",
        price:225,
-       descripation:"TOP for daily wear"
+       descripation:"TOP for daily wear",
+       quantity:1,
    
    },
    {
@@ -32,7 +35,8 @@ const Menu =[{
         name:"shirt",
        category:"Men",
        price:805,
-       descripation:"this is black shirt"
+       descripation:"this is black shirt",
+       quantity:1,
    
    },
    { 
@@ -42,6 +46,7 @@ const Menu =[{
     category:"Women",
     price:605,
     descripation:" floral print top",
+    quantity:1,
    },
    {
     id:4,
@@ -50,6 +55,7 @@ const Menu =[{
     category:"Women",
     price:665,
     descripation:" black floral print top",
+    quantity:1,
    },
  {
        id:5,
@@ -57,7 +63,8 @@ const Menu =[{
        name:"Top",
        category:"Women",
        price:325,
-       descripation:"lining top,daily wear"
+       descripation:"lining top,daily wear",
+       quantity:1,
    
    },
    {
@@ -66,7 +73,8 @@ const Menu =[{
        name:"Shirt",
        category:"Men",
        price:925,
-       descripation:"Black and white shirt"
+       descripation:"Black and white shirt",
+       quantity:1,
    
     },
     {
@@ -75,7 +83,8 @@ const Menu =[{
         name:"Shirt",
         category:"Men",
         price:1025,
-        descripation:"pink shirt office wear"
+        descripation:"pink shirt office wear",
+        quantity:1,
     
      },
      {
@@ -84,25 +93,28 @@ const Menu =[{
         name:"Shirt",
         category:"Men",
         price:925,
-        descripation:"causal wear shirt"
+        descripation:"causal wear shirt",
+        quantity:1,
     
      },
-     {
-        id:10,
-        image:"https://static.magicpin.com/storage/blog/images/myntra-online-shopping-for-mens_Formal_Shirt.jpg",
-        name:"shirt",
-        category:"Men",
-        price:1225,
-        descripation:"daily wear"
+   //   {
+   //      id:10,
+   //      image:"https://static.magicpin.com/storage/blog/images/myntra-online-shopping-for-mens_Formal_Shirt.jpg",
+   //      name:"shirt",
+   //      category:"Men",
+   //      price:1225,
+   //      descripation:"daily wear"
     
-     },
+   //   },
      {
         id:12,
         image:"https://www.kalaniketan.com/media/catalog/product/cache/a21c1d38413de64f1250fbeb2309e062/K/N/KN_DL_GC_1662_PH.jpg",
         name:"Lahenga",
         category:"Kids",
         price:1225,
-        descripation:"tradditional fastival wear"
+        descripation:"tradditional fastival wear",
+        quantity:1,
+        
     
      },
      {
@@ -111,7 +123,8 @@ const Menu =[{
         name:"Lahanga choli",
         category:"Kids",
         price:1005,
-        descripation:"wedding wear"
+        descripation:"wedding wear",
+        quantity:1,
     
      },
      {
@@ -120,7 +133,8 @@ const Menu =[{
         name:"Sharara",
         category:"Kids",
         price:925,
-        descripation:"pink sharara "
+        descripation:"pink sharara ",
+        quantity:1,
     
      },
      {
@@ -129,7 +143,8 @@ const Menu =[{
         name:"Lahanga",
         category:"Kids",
         price:905,
-        descripation:"fastival wear"
+        descripation:"fastival wear",
+        quantity:1,
     
      },
     

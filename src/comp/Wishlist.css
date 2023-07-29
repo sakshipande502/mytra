@@ -1,0 +1,115 @@
+.card2 {
+    margin-top: 70px;
+    color: black;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+  }
+  
+  .main {
+    padding: 2rem;
+    overflow-y: auto;
+    background-color: rgb(167, 163, 163);
+  }
+  
+  h1 {
+    color: black;
+    font-size: medium;
+  }
+  
+  aside {
+    /* border-radius: 100px 0 0 100px; */
+    background-color: rgb(253, 253, 253);
+    color: darkmagenta;
+    height: 100%;
+    width: 100%;
+    box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.8);
+    display:block;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  
+  h2 {
+    margin: 1rem;
+  }
+  
+  &:last-of-type {
+    font-weight: 600;
+  }
+  
+  .cardItem2 {
+    background-color: #e9e5e7;
+    width: 100%;
+    border-radius: 10px;
+    margin: 2rem 0;
+    padding: 1rem;
+    display: grid;
+    color: black;
+    grid-template-columns: 1fr 3fr 1fr 1fr;
+    align-items: center;
+  }
+  
+  .cardItem2 img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+  }
+  
+  .cardItem2 > div {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .cardItem2 > div button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: rgb(242, 244, 246);
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cardItem2 > div button:hover {
+    background-color: rgb(229, 95, 202);
+  }
+  
+  .cardItem2 > div p {
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+  }
+  .cardItem2 > svg{
+    cursor: pointer;
+    font-size: 1.rem;
+    display: inline-block;
+    margin: auto;
+  }
+  .cardItem2 > svg:hover {
+    color: fuchsia;
+  }
+  @media screen and (min-width: 820px) {
+    /* Larger screens - 2 columns */
+    .card2 {
+      grid-template-columns: 4fr 1fr;
+    }
+  
+    .cardItem2 {
+      grid-template-columns: 1fr 3fr 1fr 1fr;
+    }
+  }
+  .link4{
+    padding-top:180px;
+    font-size: 30px;
+    align-items: center;
+    padding-left: 90px;
+    /* alignItems:center;
+          padding-left:90px;
+          fontSize:30px; */
+        
+}
