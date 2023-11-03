@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import "./Wishlist.css";
 import {AiFillDelete} from 'react-icons/ai'
 import { useDispatch, useSelector } from 'react-redux';
+import { div } from 'op';
+import Empty from './Empty';
 const i ="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/19524874/2022/8/17/0fb689b3-28b4-4f6a-be08-a2ce9dfedcdc1660715206206QOMNBluePrintMandarinCollarTop1.jpg"
 export default function Wishlist() {
  
@@ -38,6 +40,16 @@ export default function Wishlist() {
     });
 
   }
+  const inlineStyle = {
+    color: 'black',
+    fontSize: '16px',
+    // backgroundColor: 'lightgray',
+    padding: '10px',
+    textDecoration: 'none',
+    textAlign: 'center', // Center-align the text
+    paddingTop: '100px',  // Add padding from the top
+    fontSize: '30px',
+  };
   return (
     <div>
       {/* <Nav></Nav> */}
@@ -60,7 +72,8 @@ export default function Wishlist() {
          
           ></Carditem>
             ))
-          ):  <Link to ='/about' className='link4'>Shop Now</Link>
+          ): <Empty></Empty>
+          
 
         }
         

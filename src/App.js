@@ -7,6 +7,8 @@ import Skill from "./comp/Skills";
 import Wishlist from "./comp/Wishlist";
 import Footer from "./comp/Footer";
 import Nav from "./comp/Nav";
+import Sample from "./comp/Sample";
+import Errorpage from "./comp/errorpage";
 import { Toaster } from "react-hot-toast";
 
 function App() {
@@ -20,6 +22,10 @@ function App() {
         <Route path="/project" element={<Project/>} />
         <Route path="/skill" element={<Skill />} />
         <Route path="/wishlist" element={<Wishlist />} />
+      <Route path="/errorpage" element={<Errorpage/>}></Route>
+        <Route path="/sample" element={<Sample />} />
+
+
       </Routes>
       <Toaster></Toaster>
       <Footer />

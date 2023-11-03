@@ -1,37 +1,50 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Login from './Login'
 import Nav from './Nav'
+import { useNavigate } from 'react-router-dom';
+
 export default function About() {
+//   const navigate = useNavigate();
+//   const callAboutPage = async()=>{
+//     try{
+//       const res = await fetch('/about',{
+//         method:"GET",
+//         headers:{
+//             Accept:"application/json",
+//             "Content-Type":"application/json"
+//         },
+//         credentials:"include"
+
+        
+//       });
+//       const data = await res.json();
+//       console.log(data);
+
+//       if(!res.status === 200){
+//         const error = new Error(res.error);
+//         throw error;
+//       }
+
+
+//     }catch(err){
+//       console.log(err);
+//       navigate("/contact");
+//     }
+//   }
+
+//  const token = localStorage.getItem('token');
+ 
+  // useEffect(()=>{
+  //    if(token!== null){
+  //      navigate('/about');
+  //    }
+  //    else{
+  //     navigate('/contact');
+  //    }
+  // },[token,navigate])
   return (
     <div>
     <Nav></Nav>
-    {/* <img tyle={{
-          marginTop:"120px",
-         }}  url="'https://assets.indiadesire.com/images/fashion%20haul%20myntra.jpg"></img> */}
-     {/* <Sliding></Sliding> */}
-     {/* <div className='row'>
-         <div style={{
-          marginTop:"70px",
-         }} className='row-posters'>
-
-        
-           <img style={{
-            width:"1000px",
-            height:"600px"
-           }}
-           className='row-poster' src='https://assets.indiadesire.com/images/fashion%20haul%20myntra.jpg'></img>
-           {/* <img className='row-poster' src='https://assets.indiadesire.com/images/fashion%20haul%20myntra.jpg'></img>
-           <img className='row-poster' src='https://assets.indiadesire.com/images/fashion%20haul%20myntra.jpg'></img>
-           <img className='row-poster' src='https://assets.indiadesire.com/images/fashion%20haul%20myntra.jpg'></img>
-           <img className='row-poster' src='https://assets.indiadesire.com/images/fashion%20haul%20myntra.jpg'></img>
-           <img className='row-poster' src='https://assets.indiadesire.com/images/fashion%20haul%20myntra.jpg'></img>
-           <img className='row-poster' src='https://assets.indiadesire.com/images/fashion%20haul%20myntra.jpg'></img>
-           <img className='row-poster' src='https://assets.indiadesire.com/images/fashion%20haul%20myntra.jpg'></img>
-           <img className='row-poster' src='https://assets.indiadesire.com/images/fashion%20haul%20myntra.jpg'></img>
-           <img className='row-poster' src='https://assets.indiadesire.com/images/fashion%20haul%20myntra.jpg'></img> */}
-           {/* </div>
-         </div> */}
-    
       <Login></Login>
     </div>
   )

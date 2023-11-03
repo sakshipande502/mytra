@@ -15,7 +15,7 @@
      align-items: center;
     width: 100%;
     height: 520px;
-    margin-top: 430px;
+    margin-top: 490px;
     margin-left: 0%;
     margin-right: 0%;
     /* padding-left: 70px; */
@@ -34,7 +34,7 @@
 
 .home{
     margin-top: 90px;
-    background-image: url("https://www.findprix.com/blog/wp-content/uploads/2022/03/Myntra-End-Of-Reason-Sale-1024x326.jpg");
+    background-image: url("https://images.freekaamaal.com/post_images/1572680048.png");
      background-repeat: no-repeat;
   
      background-size: 100%;
@@ -195,4 +195,16 @@
   .row-posterLarge:hover {
     transform: scale(1.09);
   }
+ 
+  @media (max-width: 768px) {
+    /* CSS rules for screens smaller than 768px wide */
+    .main-div{
+      height: 50px;
+      width:100px;
+    }
+
+  }
+  
+  
+
   

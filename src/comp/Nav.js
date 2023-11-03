@@ -22,7 +22,7 @@ function Nav() {
         <Link to ='/' className='an'>Home</Link>
         <Link to ='/about' className='an2'>Shop Now</Link>
        
-        <Link to ='/Wishlist' className='an'>Card</Link>
+        <Link to ='/Wishlist' className='an'>Cart</Link>
         <Link to ='/Contact' className='an'>Account</Link>
         </nav>
         {/* <button onClick={()=> filterItem("Women")} className='an'>Women</button> */}

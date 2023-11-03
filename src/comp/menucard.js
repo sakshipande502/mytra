@@ -1,6 +1,6 @@
 import React from "react";
 import { toast } from "react-hot-toast";
-import "./menu";
+import "./menu.js";
 import { useDispatch } from "react-redux";
 const Menucard =({menuData})=>{
     const dispatch = useDispatch()
@@ -38,7 +38,7 @@ const Menucard =({menuData})=>{
                     {/* <div className="card-read">{price}</div> */}
                     </div>
                     <img src={image} alt="img" className="card-media"/>
-                    <button onClick={()=>addcard(curr)} className="card-tag subtle">Add to card</button>
+                    <button onClick={()=>addcard(curr)} className="card-tag subtle">Add to cart</button>
                 </div>
             </div>
             </>
